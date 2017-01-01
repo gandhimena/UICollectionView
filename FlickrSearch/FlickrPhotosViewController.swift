@@ -22,6 +22,7 @@ private extension FlickrPhotosViewController{
 
 extension FlickrPhotosViewController: UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
         //1
         let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
         textField.addSubview(activityIndicator)
